@@ -1,16 +1,13 @@
-# alcool_gasolina
+Projeto criado com objetivo de adquirir conhecimentos em Flutter.
 
-A new Flutter project.
+## Alcool ou Gasolina
 
-## Getting Started
+Esse projeto faz parte do curso Desenvolvimento Android e IOS com Flutter do Jamilton Damasceno com algumas coisinhas a mais.
 
-This project is a starting point for a Flutter application.
+Nesta aplicação faremos uma operação de comparação de preços entre gasolina e alcool.
 
-A few resources to get you started if this is your first Flutter project:
+**O que foi utilizado**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+**Screenshots**
