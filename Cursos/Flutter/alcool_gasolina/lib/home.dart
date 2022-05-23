@@ -11,11 +11,24 @@ class _HomeState extends State<Home> {
 
   TextEditingController _alcoolController = TextEditingController();
   TextEditingController _gasolinaController = TextEditingController();
+  String _result = "";  
+
+
 
   void _calcular(){
 
-    //TODO: criar função 
+    double? priceAlcool = double.tryParse(_alcoolController.text);
+    double? priceGas = double.tryParse(_gasolinaController.text);
+    
+    if((priceAlcool!/priceGas!) >= 0.7){
        
+       setState(() {
+         _result = "Bão";
+       });
+    }else{
+      setState(() {
+        _result = "NÃO";      });
+    }
 
   }
 
@@ -57,7 +70,7 @@ class _HomeState extends State<Home> {
                   child: Text("Calcular")),
                 ),
                 Padding(padding: EdgeInsets.only(top: 20),
-                child: Text(""),)
+                child: Text(_result),)
               ],
             ),
           ),
