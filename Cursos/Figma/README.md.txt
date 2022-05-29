@@ -1,1 +1,0 @@
-Link Figma: https://www.figma.com/file/KYDJ1Fl4lCR5SIfqqSbh5V/Rio-Quente-APP?node-id=0%3A1
