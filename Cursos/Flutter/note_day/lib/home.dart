@@ -22,10 +22,11 @@ class _HomeState extends State<Home> {
         ),
       ),
       body: Container(),
-      floatingActionButton: FloatingActionButton(onPressed: (){},
-      backgroundColor: Colors.black,
-      foregroundColor: Colors.white,
-      child: Icon(Icons.add),),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+        child: Icon(Icons.add),),
       
     );
   }
